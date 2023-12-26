@@ -1,16 +1,14 @@
 import './App.css';
-// import LoginSignup from './Components/LoginSignup/LoginSignup'
+import LoginSignup from './Components/LoginSignup/LoginSignup'
 import MobileBtn from './Components/Button/MobileBtn'
 import Product from './Components/Product/Product';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Menu from './Components/NavBar/Menu'
+
 
 function App() {
   return (
     <div>
-
-      {/* <LoginSignup/> */}
-      <div className='row'>
+      <LoginSignup/>
+      {/* <div className='row'>
         <MobileBtn/>
         <MobileBtn/>
         <MobileBtn/>
@@ -25,7 +23,7 @@ function App() {
         <Product/>
         <Product/>
         <Product/>
-      </div>
+      </div> */}
 
     </div>
   );
