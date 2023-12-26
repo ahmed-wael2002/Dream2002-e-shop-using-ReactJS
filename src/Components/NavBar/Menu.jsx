@@ -1,48 +1,25 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import './Menu.css'
+import logo from '../Assets/logo.gif'
 const Menu = () => {
-  return (
-    <div>
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+    return (
+        <nav>
+            <div className="logo-container">
+                <img className='Logo' src={logo} alt='mobilaty logo'/>
+                <a className='title' href={'/'}>Mobilaty</a>
+            </div>
 
-      <br />
-      <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
-      </div>
-  )
+            <div className="links">
+                <ul>
+                    <li><a href={'/about'}>About</a></li>
+                    <li><a href={'/contact'}>Contact</a></li>
+                    <li><a href={'/mobile'}>Mobiles</a></li>
+                    <li><a href={'/laptop'}>Laptops</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    )
 }
 
 export default Menu
