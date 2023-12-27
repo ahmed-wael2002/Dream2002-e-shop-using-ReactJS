@@ -7,7 +7,7 @@ import cart from '../Assets/cart.png'
 const Product = (props) => {
 
     const data = props.data;
-    const photo = require(`../Assets/${data.id}.jpg`);
+    const photo = require(`../Assets/${data.category}/${data.id}.jpg`);
 
     return (
     <div className='product-container'>
@@ -20,10 +20,11 @@ const Product = (props) => {
         </div>
 
         {/*Card Text*/}
-        <div>
+        <div className="product-text">
             <p className="brand">{data.brand}</p>
             <p className="title">{data.name}</p>
-            <p className="price">{data.price}</p>
+            <p className="brand">{data.color}</p>
+            <p className="price">{data.price} EGP</p>
         </div>
 
         {/*Buttons */}

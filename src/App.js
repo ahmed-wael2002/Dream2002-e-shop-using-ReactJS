@@ -28,6 +28,16 @@ function App() {
         category: 'mobiles',
         price: 31255
     }
+    var phone3 = {
+        id: 3,
+        name: 'Iphone 8 Plus',
+        brand: 'Apple',
+        description: '32GB - 3GB RAM - 5\' IPS Display',
+        color: 'Black',
+        year: 2018,
+        category: 'mobiles',
+        price: 7500
+    }
 
   return (
     <div>
@@ -37,10 +47,8 @@ function App() {
             <div className="row">
                 <Product data={phone1}/>
                 <Product data={phone2}/>
-                <Product data={phone1}/>
-                <Product data={phone2}/>
+                <Product data={phone3}/>
             </div>
-
         </div>
     </div>
   );

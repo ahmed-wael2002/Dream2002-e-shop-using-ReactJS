@@ -1,3 +1,12 @@
+@font-face{
+  font-family: 'Poppins';
+  src: url('./Components/Assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
 .App {
   text-align: center;
 }

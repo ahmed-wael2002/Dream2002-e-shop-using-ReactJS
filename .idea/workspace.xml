@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52019889-c0dd-47c1-b7a9-8502d8acd132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Assets/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Assets/iphone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Assets/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Assets/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Assets/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/Menu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product/Product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product/Product.jsx" afterDir="false" />
     </list>
@@ -47,7 +52,7 @@
     "Node.js.Menu.jsx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "product-cards",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +103,8 @@
       <workItem from="1703607978460" duration="8000" />
       <workItem from="1703607995519" duration="418000" />
       <workItem from="1703608428573" duration="5939000" />
-      <workItem from="1703677961234" duration="1882000" />
+      <workItem from="1703677961234" duration="2180000" />
+      <workItem from="1703684721047" duration="1944000" />
     </task>
     <servers />
   </component>
