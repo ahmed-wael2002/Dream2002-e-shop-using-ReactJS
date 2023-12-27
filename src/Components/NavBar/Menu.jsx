@@ -6,7 +6,7 @@ const Menu = () => {
         <nav>
             <div className="logo-container">
                 <img className='Logo' src={logo} alt='mobilaty logo'/>
-                <a className='title' href={'/'}>Mobilaty</a>
+                <a className='title' href={'/home'}>Mobilaty</a>
             </div>
 
             <div className="links">
