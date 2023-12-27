@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52019889-c0dd-47c1-b7a9-8502d8acd132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Assets/mobiles/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Assets/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Assets/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product/Product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product/Product.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Node.js.App.js.executor": "Run",
-    "Node.js.Menu.jsx.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "product-cards",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Menu.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -104,7 +94,8 @@
       <workItem from="1703607995519" duration="418000" />
       <workItem from="1703608428573" duration="5939000" />
       <workItem from="1703677961234" duration="2180000" />
-      <workItem from="1703684721047" duration="1944000" />
+      <workItem from="1703684721047" duration="2179000" />
+      <workItem from="1703686936700" duration="113000" />
     </task>
     <servers />
   </component>
