@@ -20,11 +20,15 @@
 
 .product-image{
     width: 100%;
+    align-self: center;
+    align-items: center;
     position:relative;
 }
 
 .product-image img{
+    align-self: center;
     width: 100%;
+    height: 100%;
 }
 
 
@@ -46,9 +50,24 @@
 }
 
 .title{
-    font-size: 23px;
+    margin: 0 10px;
+    font-size: 20px;
     font-weight:500;
     text-align: center;
+}
+
+.brand{
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.price{
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+    color: #9227d9;
 }
 
 .icon{
@@ -57,9 +76,7 @@
     border-radius: 30px;
     background-color: rgb(189, 186, 186);
     transition: 0.2s ease;
-
     cursor:pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;

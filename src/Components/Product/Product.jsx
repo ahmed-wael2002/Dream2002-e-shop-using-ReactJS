@@ -1,27 +1,32 @@
 import React from 'react'
 import './Product.css'
-import mobile from '../Assets/iphone.jpg'
+//import mobile from '../Assets/1.jpg'
 import love from '../Assets/heart.png'
 import cart from '../Assets/cart.png'
 
-const Product = () => {
-  return (
+const Product = (props) => {
+
+    const data = props.data;
+    const photo = require(`../Assets/${data.id}.jpg`);
+
+    return (
     <div className='product-container'>
         {/* Image and description text */}
         <div className="product-image">
-            <img src={mobile} alt="" />
+            <img src={photo} alt="" />
             <div className="description">
-                <p>
-                    256GB - 6GB Memory - Golden
-                </p>
+                <p> {data.description} </p>
             </div>
         </div>
 
+        {/*Card Text*/}
         <div>
-            <p className="title">Iphone 13 Pro Max</p>
-            <p className="title">13,000 egp</p>
+            <p className="brand">{data.brand}</p>
+            <p className="title">{data.name}</p>
+            <p className="price">{data.price}</p>
         </div>
 
+        {/*Buttons */}
         <div className="buttons">
             <div className="icon">
                 <img src={love} alt="" />
