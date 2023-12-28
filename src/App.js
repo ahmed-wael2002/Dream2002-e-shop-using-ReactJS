@@ -33,44 +33,11 @@ function App() {
                 </Routes>
             </BrowserRouter>
 
-            {/*<div>*/}
-            {/*    <MobileBtn/>*/}
-            {/*    <div className="row">*/}
-            {/*        <Product data={phone1}/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </div>
-
     );
-
 }
 
 export default App;
-
-// return (
-//   // <div>
-  //   //
-  //   //     <Menu/>
-  //   //     {/*<LoginSignup/>*/}
-  //   //     {/*<div className='row'>*/}
-  //   //     {/*  <MobileBtn/>*/}
-  //   //     {/*  <MobileBtn/>*/}
-  //   //     {/*  <MobileBtn/>*/}
-  //   //     {/*  <MobileBtn/>*/}
-  //   //   {/*  <MobileBtn/>*/}
-  //   //   {/*</div>*/}
-  //   //
-  //   //   {/*<div className='row'>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*  <Product/>*/}
-  //   //   {/*</div>*/}
-  //   //
-  //   // </div>
-  // );
 
 
 
