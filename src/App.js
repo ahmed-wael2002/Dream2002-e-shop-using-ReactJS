@@ -18,18 +18,10 @@ import React from "react";
 
 
 function App() {
-    var phone1={
-        id:1,
-        name:'Iphone 13 Pro Max',
-        brand:'Apple',
-        description: '256GB - 4GB RAM - 6.5\' OLED Display',
-        color:'Gold',
-        year:2021,
-        category:'mobiles',
-        price: 30000
-    }
+
     return (
         <div>
+            <NavBar/>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Startpage/>}></Route>
@@ -41,20 +33,15 @@ function App() {
                 </Routes>
             </BrowserRouter>
 
-            <NavBar/>
-            <div>
-                <MobileBtn/>
-                <div className="row">
-                    <Product data={phone1}/>
-
-                </div>
-
-            </div>
-
+            {/*<div>*/}
+            {/*    <MobileBtn/>*/}
+            {/*    <div className="row">*/}
+            {/*        <Product data={phone1}/>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
 
-    )
-        ;
+    );
 
 }
 
