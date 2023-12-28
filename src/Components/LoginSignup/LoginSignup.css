@@ -106,7 +106,7 @@ img{
     height: 700px;
     align-items: center;
     border-radius: 30px;
-    background-image: url("../Assets/accessory\ background.jpg");
+    background-image: url("../Assets/accessory background.jpg");
     background-size: cover;
 }
 
@@ -114,4 +114,24 @@ img{
     display:flex;
     align-content: space-evenly;
     gap: 100px;
+}
+
+/* Contact us styling */
+textarea{
+    background: rgb(234, 234, 238);
+    height: 300px;
+    width: 450px;
+    font-size: 23px;
+    border: none;
+    border-radius: 6px;
+    resize: none;
+    padding: 15px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: black;
+    margin: 0;
 }
