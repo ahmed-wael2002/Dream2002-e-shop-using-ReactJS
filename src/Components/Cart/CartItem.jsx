@@ -3,6 +3,10 @@ import trash_icon from '../Assets/trash-bin.png'
 import './Cart.css'
 
 export const CartItem = (props) => {
+    const handleDeleteClick = () => {
+        props.onDelete();
+    };
+
     const data = props.data;
     const product_img = require(`../Assets/${data.category}/${data.id}.jpg`);
 
@@ -19,7 +23,7 @@ export const CartItem = (props) => {
 
             <p className="text">{data.price} EGP</p>
 
-            <img src={trash_icon} alt="trash icon" className="icon"/>
+            <img onClick={handleDeleteClick} src={trash_icon} alt="trash icon" className="icon"/>
         </div>
     )
 }
