@@ -9,8 +9,12 @@ const Product = (props) => {
     const data = props.data;
     const photo = require(`../Assets/${data.category}/${data.id}.jpg`);
 
+    function changePath (id) {
+        window.location.href = `/product/${id}`;
+    }
+
     return (
-    <div className='product-container'>
+    <div className='product-container' onClick={()=>changePath(data.id)}>
         {/* Image and description text */}
         <div className="product-image">
             <img src={photo} alt="" />
