@@ -6,7 +6,6 @@ const About =() =>{
         <div>
             <NavBar/>
 
-{/*<h1>This is about page</h1>*/}
         </div>
     );
 
