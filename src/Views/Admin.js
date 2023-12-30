@@ -80,6 +80,7 @@ const Admin =() =>{
 
     return (
         <div>
+            <h1 className="admin-title">Adminstrator Page</h1>
             {/*<NavBar/>*/}
             <div className="admin-buttons">
                 <button onClick={()=>{setAction("add_product")}}><img src={add_icon} alt=""/></button>

@@ -9,26 +9,32 @@ const Product = (props) => {
     const data = props.data;
     const photo = require(`../Assets/${data.category}/${data.id}.jpg`);
 
-    function changePath (id) {
+    function gotoInfo (id) {
         window.location.href = `/product/${id}`;
     }
 
-    return (
-    <div className='product-container' onClick={()=>changePath(data.id)}>
-        {/* Image and description text */}
-        <div className="product-image">
-            <img src={photo} alt="" />
-            <div className="description">
-                <p> {data.description} </p>
-            </div>
-        </div>
+    function goToCart () {
+        window.location.href = `/cart`;
+    }
 
-        {/*Card Text*/}
-        <div className="product-text">
-            <p className="brand">{data.brand}</p>
-            <p className="title">{data.name}</p>
-            <p className="brand">{data.color}</p>
-            <p className="price">{data.price} EGP</p>
+    return (
+    <div className='product-container'>
+        <div  onClick={()=>gotoInfo(data.id)}>
+            {/* Image and description text */}
+            <div className="product-image">
+                <img src={photo} alt="" />
+                <div className="description">
+                    <p> {data.description} </p>
+                </div>
+            </div>
+
+            {/*Card Text*/}
+            <div className="product-text">
+                <p className="brand">{data.brand}</p>
+                <p className="title">{data.name}</p>
+                <p className="brand">{data.color}</p>
+                <p className="price">{data.price} EGP</p>
+            </div>
         </div>
 
         {/*Buttons */}
@@ -36,7 +42,7 @@ const Product = (props) => {
             <div className="icon">
                 <img src={love} alt="" />
             </div>
-            <div className="icon">
+            <div className="icon" onClick={()=>goToCart()}>
                 <img src={cart} alt="" />
             </div>
         </div>
