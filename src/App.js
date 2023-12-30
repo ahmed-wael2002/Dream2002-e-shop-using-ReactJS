@@ -9,6 +9,7 @@ import Laptops from "./Views/Laptops"
 import Cart from "./Views/Cart"
 import React from "react";
 import ProductInfo from "./Views/ProductInfo";
+import Admin from "./Views/Admin";
 
 
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/mobile" element={<Mobiles/>}></Route>
                     <Route path="/laptop" element={<Laptops/>}></Route>
                     <Route path="/cart" element={<Cart/>}></Route>
+                    <Route path="/admin" element={<Admin/>}></Route>
                     <Route path="/product/:p_id" element={<ProductInfo/>}></Route>
                 </Routes>
             </BrowserRouter>
