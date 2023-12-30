@@ -38,14 +38,7 @@ const Product = (props) => {
         </div>
 
         {/*Buttons */}
-        <div className="buttons">
-            <div className="icon">
-                <img src={love} alt="" />
-            </div>
-            <div className="icon" onClick={()=>goToCart()}>
-                <img src={cart} alt="" />
-            </div>
-        </div>
+        <button className={'product-card-button'} onClick={()=>goToCart()}>Add to cart</button>
     </div>
   )
 }

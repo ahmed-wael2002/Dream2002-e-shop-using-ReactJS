@@ -1,13 +1,17 @@
 import React from 'react'
 import './Menu.css'
-import logo from '../Assets/logo.gif'
+import logo from '../Assets/Logo_white.png'
 import cart_icon from '../Assets/nav_cart.png'
 const Menu = () => {
+
+    function goToHome (){
+        window.location.href = '/home'
+    }
+
     return (
         <nav>
             <div className="logo-container">
-                <img className='Logo' src={logo} alt='mobilaty logo'/>
-                <a className='Brand' href={'/home'}>Dream 2002</a>
+                <img className='Logo' src={logo} alt='mobilaty logo' onClick={()=>{goToHome()}}/>
             </div>
 
             <div className="links">
@@ -16,6 +20,7 @@ const Menu = () => {
                     <li><a href={'/contact'}>Contact</a></li>
                     <li><a href={'/mobile'}>Mobiles</a></li>
                     <li><a href={'/laptop'}>Laptops</a></li>
+                    <li><a href={'/tv'}>TV</a></li>
                 </ul>
             </div>
 

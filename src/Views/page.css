@@ -74,3 +74,25 @@ hr{
     height: 500px;
     border-radius:50px;
 }
+
+.Homepage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo{
+    width: 300px;
+    height: auto;
+    margin: 25px;
+}
+
+.contact-us-img{
+    background: url('../Components/Assets/customer service.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 700px;
+    border-radius: 50px;
+}
