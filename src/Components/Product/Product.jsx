@@ -9,33 +9,36 @@ const Product = (props) => {
     const data = props.data;
     const photo = require(`../Assets/${data.category}/${data.id}.jpg`);
 
+    function gotoInfo (id) {
+        window.location.href = `/product/${id}`;
+    }
+
+    function goToCart () {
+        window.location.href = `/cart`;
+    }
+
     return (
     <div className='product-container'>
-        {/* Image and description text */}
-        <div className="product-image">
-            <img src={photo} alt="" />
-            <div className="description">
-                <p> {data.description} </p>
+        <div  onClick={()=>gotoInfo(data.id)}>
+            {/* Image and description text */}
+            <div className="product-image">
+                <img src={photo} alt="" />
+                <div className="description">
+                    <p> {data.description} </p>
+                </div>
             </div>
-        </div>
 
-        {/*Card Text*/}
-        <div className="product-text">
-            <p className="brand">{data.brand}</p>
-            <p className="title">{data.name}</p>
-            <p className="brand">{data.color}</p>
-            <p className="price">{data.price} EGP</p>
+            {/*Card Text*/}
+            <div className="product-text">
+                <p className="brand">{data.brand}</p>
+                <p className="title">{data.name}</p>
+                <p className="brand">{data.color}</p>
+                <p className="price">{data.price} EGP</p>
+            </div>
         </div>
 
         {/*Buttons */}
-        <div className="buttons">
-            <div className="icon">
-                <img src={love} alt="" />
-            </div>
-            <div className="icon">
-                <img src={cart} alt="" />
-            </div>
-        </div>
+        <button className={'product-card-button'} onClick={()=>goToCart()}>Add to cart</button>
     </div>
   )
 }
