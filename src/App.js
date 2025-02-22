@@ -13,6 +13,7 @@ import ProductInfo from "./Views/ProductInfo";
 import Admin from "./Views/Admin";
 import {Footer} from "./Components/Footer/Footer";
 import TV from "./Views/TV";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 
